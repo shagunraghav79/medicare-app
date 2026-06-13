@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Address.css";
+import "./address.css";
 
 const Address = ({ setShowAddress }) => {
   const [address, setAddress] = useState({
