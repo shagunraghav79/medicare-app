@@ -5,7 +5,7 @@ import Stripe from 'stripe'
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeorder = async (req, res) => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://medicare-apppp.onrender.com/";
 
   try {
     const { items, amount, address } = req.body;
