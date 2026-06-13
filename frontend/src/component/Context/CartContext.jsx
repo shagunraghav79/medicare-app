@@ -8,7 +8,7 @@ export const CartProvider = ({ children }) => {
   const [medicineList, setMedicineList] = useState([]);
   const [token, setToken] = useState(localStorage.getItem("token") || "");
 
-  const url = "http://localhost:4000";
+  const url = "https://medicare-app-backend-g95p.onrender.com";
 
   // Fetch medicines from database
   const fetchMedicines = async () => {
