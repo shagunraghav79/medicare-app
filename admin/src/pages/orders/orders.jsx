@@ -7,7 +7,7 @@ import boximg from "../../assets/3d-delivery-box-parcel_78370-825.avif";
 const Orders = () => {
   const [orders, setOrders] = useState([]);
 
-  const url = "http://localhost:4000"; // Backend URL
+  const url = "https://medicare-app-backend-g95p.onrender.com"; // Backend URL
 
   const fetchAllOrders = async () => {
     try {
