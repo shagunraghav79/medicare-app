@@ -1,6 +1,6 @@
 import react, { useContext } from 'react'
 import './hero.css'
-import { CartContext } from "../../component/context/CartContext";
+import { CartContext } from "../../component/Context/CartContext";
 
 
 
