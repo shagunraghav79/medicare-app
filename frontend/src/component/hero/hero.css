@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* height: 100vh; */
+}
+.hero1{
+    height: 100vh;
+    width: 50%;
+    /* display: flex; */
+    /* background-color:rgb(241, 222, 113); */
+    background: linear-gradient(135deg, #f6d365, #fda085)
+}
+ .hero2{
+    height: 100vh;
+    width: 50%;
+     background-color: rgb(241, 222, 113); 
+    background: linear-gradient(135deg, #fda085, #f6d365) 
+ }
+
+.hed1{
+    margin-top: 110px;
+     display: flex;
+    /* align-items: center; */
+    justify-content: center;
+   font-size: 100px;
+   gap:10px;
+  
+}
+.hed11{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(179, 26, 33);
+}
+.hed2{
+    /* display: flex; */
+/*   
+    justify-content: center; */
+    /* margin-top: 10px; */
+    margin-left: 80px;
+    font-size: 100px;
+}
+.hed3{
+  
+   
+    /* margin-top: 200px; */
+    font-size: 60px;
+    font-size: 100px;
+    font-weight: bolder;
+     margin-left: 80px;
+}
+
+.log-button{
+   height: 10vh;
+    display: flex;
+    margin-left: 6vw;;
+    margin-top: 20px;
+}
+.log-btn{
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: rgb(179, 26, 33);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero-wel{
+   padding: 10px 20px;
+    font-size: 30px;
+    background-color: rgb(179, 26, 33);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
+     height: 8vh;
+     width: 13vw;
+    display: flex;
+    margin-left: 6vw;;
+    margin-top: 20px;
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        .hero-wel{
+        width: auto;
+        height: auto;
+        margin: 20px auto;
+        padding: 12px 24px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero1{
+        width: 100%;
+        height: auto;
+        
+        justify-content: center;
+
+        
+    }
+    
+    .hed11{
+        font-size: 50px;
+     
+    }
+
+  
+        .hero2{
+          display: none;
+        }
+    .hed1, .hed2, .hed3{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 0;
+        
+    }
+     .hed1{
+        margin-top: 6vh;
+     }
+     .hed3{
+        margin-bottom: 6vh;
+     }
+     .log-button{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+} 

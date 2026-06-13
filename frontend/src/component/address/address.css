@@ -1,0 +1,40 @@
+.address-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+ margin-right: 100vw;
+}
+
+.address-form h2 {
+  margin-bottom: 20px;
+}
+ 
+.address-form input,
+.address-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.address-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.address-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}

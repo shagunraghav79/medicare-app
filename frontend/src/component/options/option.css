@@ -1,0 +1,56 @@
+.option{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.option h1{
+    color: black;
+   font-weight: 500px;
+   font-style: bold;
+   margin-left: 5vw;
+
+}
+.medtype-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0 ;
+    overflow-x: scroll;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.cats img{
+    width: 15vw ;
+    /* height: 38vh; */
+   min-width: 100px;
+   cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 0.2s ease-in-out;
+}
+.medtype-list::-webkit-scrollbar{
+    display: none;
+}
+.cats h3{
+    margin-top: 10px;
+    font-size:min(1.5vw, 20px);
+    cursor: pointer;
+    /* color: #d31515;
+    font-weight: 500; */
+}
+.option hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none; 
+}
+.medtype-list .active{
+    border: 4px solid #d31515;
+    padding: 2px;
+}
