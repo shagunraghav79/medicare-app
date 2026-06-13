@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 
 const List = () => {
-    const url = "http://localhost:4000"
+    const url = "https://medicare-app-backend-g95p.onrender.com"
     const [list, setList] = React.useState([]);
     const fetchList = async () => {
         try {
