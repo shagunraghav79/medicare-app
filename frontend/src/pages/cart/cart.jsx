@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Cart.css";
-import { CartContext } from "../../component/context/CartContext";
+import { CartContext } from "../../component/Context/CartContext";
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Address from "../../component/address/Address";
