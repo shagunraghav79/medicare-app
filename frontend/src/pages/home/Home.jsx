@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./Home.css";
 import Nav from "../../component/Nav/nav";
 import Hero from "../../component/hero/hero";
 import Option from "../../component/options/option";
