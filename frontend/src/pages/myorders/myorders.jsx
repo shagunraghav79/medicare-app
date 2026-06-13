@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./myorder.css";
-import { CartContext } from "../../component/context/CartContext";
+import { CartContext } from "../../component/Context/CartContext";
 import axios from "axios";
 import boximg from "../../assets/3d-delivery-box-parcel_78370-825.avif";
 import { FaArrowLeft } from "react-icons/fa";
