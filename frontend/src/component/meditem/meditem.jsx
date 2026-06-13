@@ -9,7 +9,7 @@ const MedDisplay = () => {
 
   const [medicines, setMedicines] = useState([]);
 
-  const url = "http://localhost:4000";
+  const url = "https://medicare-app-backend-g95p.onrender.com";
 
   const fetchMedicines = async () => {
     try {
