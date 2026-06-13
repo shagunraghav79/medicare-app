@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FiShoppingBag } from "react-icons/fi";
 import { RiLogoutBoxLine } from "react-icons/ri";
 import { useContext } from 'react';
-import { CartContext } from "../../component/context/CartContext";
+import { CartContext } from "../../component/Context/CartContext";
 
 
 
