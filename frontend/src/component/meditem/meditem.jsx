@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import "./meditem.css";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../Context/CartContext";
 
 const MedDisplay = () => {
   const { cart, addItem, removeItem } = useContext(CartContext);
