@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './loginpopup.css';
 import { RxCross1 } from "react-icons/rx";
 import { useState } from 'react';
-import { CartContext } from "../../component/context/CartContext";
+import { CartContext } from "../../component/Context/CartContext";
 import axios from 'axios'
 
 const LoginPopup = ({ setShowLoginPopup }) => {
