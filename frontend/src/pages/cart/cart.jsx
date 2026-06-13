@@ -3,7 +3,7 @@ import "./Cart.css";
 import { CartContext } from "../../component/Context/CartContext";
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Address from "../../component/Address/Address";
+import Address from "../../component/address/address";
 import axios from "axios";
 
 const Cart = () => {
